@@ -1,0 +1,35 @@
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+
+
+<audio id="myAudio" src="/assets/songs/Look-At-Me.mp3"></audio>
+
+
+ 
+<button id="playButton" class="ri-play-fill"><i class="fa-sharp fa-solid fa-play"></i></button>
+<button id="pauseButton" class="ri-pause-fill" style="display: none;"></button>
+
+
+<script>
+    var audio = document.getElementById('myAudio');
+    var playButton = document.getElementById('playButton');
+    var pauseButton = document.getElementById('pauseButton');
+  
+    playButton.addEventListener('click', function() {
+      audio.play();
+      playButton.style.display = 'none';
+      pauseButton.style.display = 'inline-block';
+    });
+  
+    pauseButton.addEventListener('click', function() {
+      audio.pause();
+      pauseButton.style.display = 'none';
+      playButton.style.display = 'inline-block';
+    });
+  </script>
+  
+
+
+
+
+  <i class="fa-sharp fa-solid fa-play"></i>
