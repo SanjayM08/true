@@ -1,0 +1,12 @@
+.album .ri-play-fill {
+    color: var(--background-base);
+    font-size: 2.5rem !important;
+    background-color: #22c55e;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
